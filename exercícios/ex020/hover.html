@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        div > p {
+            display: none;
+            background-color: #f0f0f0;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div:hover > p {
+            display: block;
+            color: #f0f0f0 ;
+            background-color: #da4007;
+        }
+        div:hover {
+            color: cadetblue;
+            
+        } </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, maiores perferendis itaque quam ut consequatur mollitia ipsum id expedita sapiente esse at impedit, quaerat cumque, illum vel consectetur sed architecto.</p>
+    <div>passe o mouse aqui
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aspernatur quod non aliquid omnis aliquam architecto excepturi placeat, cum ipsum ab repudiandae odit consectetur ex reiciendis nisi dolorem veniam corporis?</p>
+    </div>
+    <p>fim do Exemplo</p>
+
+    
+</body>
+</html>

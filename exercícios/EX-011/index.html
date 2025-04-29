@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abrindo esse site em vários dispositivos ou aumente e diminua o tamnho do navegador</p>
+    <p>
+        <picture></picture>
+        <source media="(max-width: 750px)" srcset="iamgens/foto.png" type="image/png">
+          <source media="(max-width: 1050px)" srcset="imagens/foto2.png" type="image/png">
+            <img src="imagens/foto3.png" alt="foto3">
+
+        </picture>
+    </p>
+    <h1>Áudio</h1>
+    <p>Reproduzindo áudio</p>
+    <audio src="midia/EndOfValor-Density&Time.mp3" controls autoplay></audio> <!-- autoplay para reproduzir automaticamente --> <!-- MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+
+        <p>Infelizmente seu navegador não é compativel com esse tipo de áudio. <a href="midia/EndOfValor-Density&Time.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    
+</body>
+</html>

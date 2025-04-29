@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightslategray;
+        }
+        header {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            
+        }
+        nav {
+            background-color: rgb(176, 171, 171);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.336);
+            
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: rgb(101, 108, 129);
+            color: white;
+        }
+        main {
+            background-color: rgb(164, 159, 159);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.336);
+
+            
+           
+        }
+        main > section {
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.336);
+        }
+        article > aside {
+            background-color: rgb(87, 97, 101);
+        }
+        section#especial {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.336);
+        }
+        footer {
+            color: white;
+            background-color: rgb(6, 5, 5);
+            border: 10px solid rgb(0, 1, 5);
+            padding: 4px;
+            text-align: center;
+            margin: 0px;
+            
+        }
+        footer > p {
+            margin: 0;
+        }
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(18, 15, 15);
+            border-radius: 50%;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+          <h1>Meu site</h1>
+          <nav>
+            <a href="dsa"></a>
+          </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+      Esportes  Politica  Cultura
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel eaque recusandae, beatae veniam repudiandae obcaecati ad veritatis sequi quos magnam deleniti dolores soluta pariatur dolorem. Rem adipisci reprehenderit obcaecati harum.</p>
+                <aside>
+                    <p>Artigo escrito por mim</p>
+                </aside>
+            </article>
+        </section>
+        <section id="especial">
+            <article>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus autem atque fuga esse. Consectetur, nesciunt eaque. Totam expedita quod impedit dolore consequuntur ratione deleniti necessitatibus dolorem. Ducimus explicabo a quod.</h2>
+            </article>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Desenvolvido por cursoemvideo</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
