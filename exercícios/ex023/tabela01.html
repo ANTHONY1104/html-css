@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border: 1px solid #000;
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border: #974646 2px solid;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        tr.linha {
+            background-color: #400202;
+            color: #ddd;
+        }
+        td.dado {
+            background-color: #dddddd;
+            color: #e80d0d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+         <tr> <!--Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+         </tr>
+         <tr class="linha"> <!--Segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+         </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td class="dado">B4</td>
+                <td>C4</td>
+            </tr>
+    </table>
+    
+</body>
+</html>
