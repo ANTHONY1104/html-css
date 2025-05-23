@@ -16,15 +16,18 @@
             color: #333;
         }
         table {
-            width: 100%;
+            width: 400px;
+            height: 400px;
             border-collapse: collapse;
             margin-top: 20px;
             border: #974646 2px solid;
+            
         }
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
-            text-align: left;
+            text-align: center;
+            vertical-align: middle;
         }
         
         tr.linha {
@@ -34,6 +37,11 @@
         td.dado {
             background-color: #dddddd;
             color: #e80d0d;
+        }
+        .numero {
+            background-color: #5b0a0a;
+            color: #ffffff;
+            text-align: right;
         }
     </style>
 </head>
@@ -53,7 +61,7 @@
             <tr>
                 <td>A3</td>
                 <td>B3</td>
-                <td>C3</td>
+                <td class="numero">400</td>
             </tr>
             <tr>
                 <td>A4</td>
