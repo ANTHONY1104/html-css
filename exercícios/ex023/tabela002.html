@@ -16,8 +16,15 @@
             padding: 8px;
             text-align: center;
         }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 10px;
+            background-color: lightgray;
+        }
         thead { 
-            background-color: #66636399;
+            background-color: #1e1d1d99;
             color: aliceblue;
         }
         .numero {
@@ -35,10 +42,11 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Uniadades Federativas</caption>
         <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </tr>
         </thead>
         
@@ -59,7 +67,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="numero2">840000</td>
             </tr>
         </tfoot>
